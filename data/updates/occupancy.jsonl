@@ -1,0 +1,2 @@
+{"cargo":"G2","container":"C1","start":"2026-10-01T00:00:00Z","end":"2026-10-03T03:00:00Z","chargeable_kg":400,"revision":2,"observed_at":"2026-10-07"}
+{"cargo":"G2","container":"C2","start":"2026-10-03T03:00:00Z","end":"2026-10-05T01:00:00Z","chargeable_kg":400,"revision":2,"observed_at":"2026-10-07"}

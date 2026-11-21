@@ -1,0 +1,4 @@
+cargo,customer,chargeable_kg,reefer
+G1,CUSTOMER1,600,1
+G2,CUSTOMER2,400,1
+G3,CUSTOMER3,1000,0

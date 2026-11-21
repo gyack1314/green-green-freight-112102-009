@@ -1,0 +1,7 @@
+{"event":"L1","kind":"load","container":"C1","voyage":"V1","operation_time":"2026-10-01T00:00:00Z"}
+{"event":"U1","kind":"unload","container":"C1","voyage":"V1","operation_time":"2026-10-03T00:00:00Z"}
+{"event":"S1","kind":"split","container":"C1","cargo":["G1","G2"],"operation_time":"2026-10-03T02:00:00Z"}
+{"event":"L2","kind":"load","container":"C2","voyage":"V2","operation_time":"2026-10-04T00:00:00Z"}
+{"event":"L3","kind":"load","container":"C3","voyage":"V1","operation_time":"2026-10-01T00:00:00Z"}
+{"event":"U3","kind":"unload","container":"C3","voyage":"V1","operation_time":"2026-10-03T00:00:00Z"}
+{"event":"U2","kind":"unload","container":"C2","voyage":"V2","operation_time":"2026-10-05T00:00:00Z"}

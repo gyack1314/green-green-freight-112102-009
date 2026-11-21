@@ -1,0 +1,9 @@
+# 原始资料约定
+
+movements.jsonl 表示实到实走，load/unload为container上下船，split列出cargo和质量，operation_time为生效时间。bookings.csv只供计划对照。
+voyages.csv 的distance_nm是已确认航距。fuel.jsonl 的co2_kg已经由来源计算，primary_source相同表示同一物理燃料证据；delegations.csv确定覆盖主报送方。
+cargo.csv 的chargeable_kg与reefer为合同计费基础。occupancy.jsonl 明确cargo/container/start/end/chargeable_kg。contracts.csv 指明 main_basis=weight_distance，aux_basis=reefer_weight，reserved_fraction为承运方隔离空舱责任。
+meters.csv 是累积kWh；sockets.csv给meter/socket/container时间映射，energy_factor.json给港口kgCO2/kWh。receipts.jsonl是客户确认通知，不提供分摊输出。
+占用revision省略为1，同cargo/container较高版本替代旧区间。主机先扣reserved_fraction归reserved_party，再按实际同段货物weight_distance分剩余；辅助池只按冷藏重量，不扣该主机隔离比例。共享电表只能在证据给出唯一容器或明确各插座分量时分配。F1撤回时不能仅因F2仍在就以非授权主报送方填补。
+
+所有名称与数值均为本地合成数据，不代表真实企业、监管结论或生态调查。data/catalog.json 保存文件哈希、原始行数与列；data/updates/ 为后到修订资料，可独立接收。JSON null 表示尚无该值，不与数值零等同；CSV保留原字符串，金额和数量应按十进制解释。来源身份相同且内容相同的重送不产生新业务事实，同身份版本不同内容需保留争议，除明确替代关系外不按到达顺序判定权威。

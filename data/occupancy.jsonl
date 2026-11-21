@@ -1,0 +1,4 @@
+{"cargo":"G1","container":"C1","start":"2026-10-01T00:00:00Z","end":"2026-10-03T02:00:00Z","chargeable_kg":600}
+{"cargo":"G2","container":"C1","start":"2026-10-01T00:00:00Z","end":"2026-10-03T02:00:00Z","chargeable_kg":400}
+{"cargo":"G2","container":"C2","start":"2026-10-03T02:00:00Z","end":"2026-10-05T01:00:00Z","chargeable_kg":400}
+{"cargo":"G3","container":"C3","start":"2026-10-01T00:00:00Z","end":"2026-10-03T00:00:00Z","chargeable_kg":1000}

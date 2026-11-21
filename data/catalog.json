@@ -1,0 +1,177 @@
+{
+  "synthetic": true,
+  "files": [
+    {
+      "path": "data/movements.jsonl",
+      "rows": 7,
+      "columns": [
+        "cargo",
+        "container",
+        "event",
+        "kind",
+        "operation_time",
+        "voyage"
+      ],
+      "sha256": "9807c32986123d89b68ef08b47dbdb9a77cacfc75d65cd99798da38b4a29af8b",
+      "stage": "original"
+    },
+    {
+      "path": "data/voyages.csv",
+      "rows": 2,
+      "columns": [
+        "voyage",
+        "distance_nm",
+        "start",
+        "end"
+      ],
+      "sha256": "cd18bef6f8594463c1b612881fda6bb554eb2b125584df0ad224079a6e283454",
+      "stage": "original"
+    },
+    {
+      "path": "data/fuel.jsonl",
+      "rows": 3,
+      "columns": [
+        "aux_co2_kg",
+        "carrier",
+        "main_co2_kg",
+        "primary_source",
+        "report",
+        "status",
+        "voyage"
+      ],
+      "sha256": "8ba5e6e488a1debf5ab71675c6749b553735bb489a3760056a2f2d357bb34bf1",
+      "stage": "original"
+    },
+    {
+      "path": "data/delegations.csv",
+      "rows": 2,
+      "columns": [
+        "voyage",
+        "primary_source",
+        "reporting_carrier"
+      ],
+      "sha256": "2c0cea2d59f1862fefe4939c9ed342e0df724d52884ff9a100758d172be52b2e",
+      "stage": "original"
+    },
+    {
+      "path": "data/cargo.csv",
+      "rows": 3,
+      "columns": [
+        "cargo",
+        "customer",
+        "chargeable_kg",
+        "reefer"
+      ],
+      "sha256": "aaef0886f0ce3527bdbf66dc0306fdb6798d4a50506f4a53f13d99bafd207f76",
+      "stage": "original"
+    },
+    {
+      "path": "data/occupancy.jsonl",
+      "rows": 4,
+      "columns": [
+        "cargo",
+        "chargeable_kg",
+        "container",
+        "end",
+        "start"
+      ],
+      "sha256": "26d15f473cae54fc5e1fff2d41149203efac9537fdbb8fd41ef7e2716b960601",
+      "stage": "original"
+    },
+    {
+      "path": "data/contracts.csv",
+      "rows": 2,
+      "columns": [
+        "voyage",
+        "main_basis",
+        "aux_basis",
+        "reserved_fraction",
+        "reserved_party"
+      ],
+      "sha256": "82ca4bdab80c0aee6d0e5d0f2613f02f480efcbd708939e32aaf30681fd0ee6d",
+      "stage": "original"
+    },
+    {
+      "path": "data/meters.csv",
+      "rows": 3,
+      "columns": [
+        "meter",
+        "at",
+        "kwh"
+      ],
+      "sha256": "991c78d0a779894a21e9372bc5e1d048625848d75c2fc9ff42ddf7effe51cdc9",
+      "stage": "original"
+    },
+    {
+      "path": "data/sockets.csv",
+      "rows": 2,
+      "columns": [
+        "meter",
+        "socket",
+        "container",
+        "start",
+        "end"
+      ],
+      "sha256": "eb9a191667a9790b71d00b16913fb2770a219763c0548b13e68bf69149bea3d3",
+      "stage": "original"
+    },
+    {
+      "path": "data/energy_factor.json",
+      "rows": 1,
+      "columns": [
+        "kg_co2_per_kwh",
+        "port"
+      ],
+      "sha256": "4d8f220293d6f399aaf6bc612aa75344ab8cfdb9b2ea7f4f3a5d1447a76b388c",
+      "stage": "original"
+    },
+    {
+      "path": "data/bookings.csv",
+      "rows": 2,
+      "columns": [
+        "cargo",
+        "planned_voyages"
+      ],
+      "sha256": "a2b8727333a6d3b924f0519e4f67492a7eafeaa6b6c7534ee127c5b5e3a4b79b",
+      "stage": "original"
+    },
+    {
+      "path": "data/receipts.jsonl",
+      "rows": 1,
+      "columns": [
+        "at",
+        "customer",
+        "delivery",
+        "receipt"
+      ],
+      "sha256": "8eb1a5c23dd2b9d93c5a79acaf6db2eef3b343beebd135dfd7598e0d102cf56e",
+      "stage": "original"
+    },
+    {
+      "path": "data/updates/occupancy.jsonl",
+      "rows": 2,
+      "columns": [
+        "cargo",
+        "chargeable_kg",
+        "container",
+        "end",
+        "observed_at",
+        "revision",
+        "start"
+      ],
+      "sha256": "32f9bcc64bdd2111188f931a238afcfcc3ba32494916bb731a57ba0dcad6a1a0",
+      "stage": "supplement"
+    },
+    {
+      "path": "data/updates/fuel.jsonl",
+      "rows": 1,
+      "columns": [
+        "action",
+        "at",
+        "report"
+      ],
+      "sha256": "4b4a2db84c34163dbfc9d08ae56bdfda764b9c1c4a62d262d523bf969bd83f12",
+      "stage": "supplement"
+    }
+  ]
+}

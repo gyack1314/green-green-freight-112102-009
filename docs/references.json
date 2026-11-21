@@ -1,0 +1,20 @@
+[
+  {
+    "source": "data/fuel.jsonl",
+    "source_key": "voyage",
+    "target": "data/voyages.csv",
+    "target_key": "voyage"
+  },
+  {
+    "source": "data/occupancy.jsonl",
+    "source_key": "cargo",
+    "target": "data/cargo.csv",
+    "target_key": "cargo"
+  },
+  {
+    "source": "data/receipts.jsonl",
+    "source_key": "customer",
+    "target": "data/cargo.csv",
+    "target_key": "customer"
+  }
+]

@@ -1,0 +1,3 @@
+{"report":"F1","voyage":"V1","carrier":"A","primary_source":"BUNKER1","main_co2_kg":"900","aux_co2_kg":"100","status":"valid"}
+{"report":"F2","voyage":"V1","carrier":"B","primary_source":"BUNKER1","main_co2_kg":"900","aux_co2_kg":"100","status":"valid"}
+{"report":"F3","voyage":"V2","carrier":"A","primary_source":"BUNKER2","main_co2_kg":"300","aux_co2_kg":"50","status":"valid"}
