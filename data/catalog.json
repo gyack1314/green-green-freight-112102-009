@@ -12,7 +12,7 @@
         "operation_time",
         "voyage"
       ],
-      "sha256": "9807c32986123d89b68ef08b47dbdb9a77cacfc75d65cd99798da38b4a29af8b",
+      "sha256": "d182c690f8b00c9390e0ad0a8f17eddc59d1eb66a5ec9919cd9f15b0a0915103",
       "stage": "original"
     },
     {
@@ -39,7 +39,7 @@
         "status",
         "voyage"
       ],
-      "sha256": "8ba5e6e488a1debf5ab71675c6749b553735bb489a3760056a2f2d357bb34bf1",
+      "sha256": "9f240b45c31371c00f782d1234caaface5dc049e8e4c07822098d13a4d36956e",
       "stage": "original"
     },
     {
@@ -75,7 +75,7 @@
         "end",
         "start"
       ],
-      "sha256": "26d15f473cae54fc5e1fff2d41149203efac9537fdbb8fd41ef7e2716b960601",
+      "sha256": "5767cbb8f600be48525dd193d485dadaa7e759d8f7ddcb63361d6da39eaec6d7",
       "stage": "original"
     },
     {
@@ -122,7 +122,7 @@
         "kg_co2_per_kwh",
         "port"
       ],
-      "sha256": "4d8f220293d6f399aaf6bc612aa75344ab8cfdb9b2ea7f4f3a5d1447a76b388c",
+      "sha256": "fab68a6d0455a40b87f867f4ba97a8cacaf3b373c79f34bb13eec5e76b14dcd9",
       "stage": "original"
     },
     {
@@ -144,7 +144,7 @@
         "delivery",
         "receipt"
       ],
-      "sha256": "8eb1a5c23dd2b9d93c5a79acaf6db2eef3b343beebd135dfd7598e0d102cf56e",
+      "sha256": "0284894a96c49857dee5ccbec34016a424705958bc55ffb1f30d7fadc53f5b45",
       "stage": "original"
     },
     {
@@ -159,7 +159,7 @@
         "revision",
         "start"
       ],
-      "sha256": "32f9bcc64bdd2111188f931a238afcfcc3ba32494916bb731a57ba0dcad6a1a0",
+      "sha256": "1a24959378b91c6c07919cecd596c748d30d8a00afe28ea6fad960fd71981ee0",
       "stage": "supplement"
     },
     {
@@ -170,7 +170,7 @@
         "at",
         "report"
       ],
-      "sha256": "4b4a2db84c34163dbfc9d08ae56bdfda764b9c1c4a62d262d523bf969bd83f12",
+      "sha256": "28179a2bc8a7beda81e3f330aeb5f0e82d6360ff56d702d2f5b551cf3515bf64",
       "stage": "supplement"
     }
   ]
